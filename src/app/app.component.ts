@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'recipe-app';
-  show: string;
+  show: string = 'recipes';
 
   showRecipes(name: string) {
-    console.log(name);
+    // console.log(name);
     this.show = name;
   }
 }

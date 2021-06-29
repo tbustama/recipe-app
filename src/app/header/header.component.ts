@@ -12,7 +12,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {}
 
   onRecipesClicked() {
-    console.log('recipes');
+    // console.log('recipes');
     this.selected.emit('recipes');
   }
 
